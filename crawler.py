@@ -38,7 +38,7 @@ for url in urls:
 
 counter =0
 for i in gamenames:
-    print(i + ":" + allgamedata[counter] + ", 哈拉區: " + urllist[counter])
+    print("名次: " + str(counter+1) + ", " +i + ":" + allgamedata[counter] + ", 哈拉區: " + urllist[counter])
     counter +=1
 
 
